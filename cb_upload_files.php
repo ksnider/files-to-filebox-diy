@@ -16,7 +16,7 @@ if(count($_FILES['files']['name'])) {
 
 // Connect to Infusionsoft
 
-require_once __DIR__ . '../../lib/Infusionsoft/isdk.php'; 
+require_once 'isdk.php'; 
 $app = new iSDK;
 
 $contactId = $_POST['contactId'];
